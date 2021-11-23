@@ -1,0 +1,444 @@
+.SldrCnvrSwnCmnVr {
+    width: 100%;
+    position: relative;
+}
+.SldrVrSwntuv {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.SldrVrSwntuv .SldrImgvrmn {
+    width: 100%;
+    position: relative;
+}
+
+.SldrVrSwntuv .SldrImgvrmn .SldrCnt{
+    position: absolute;
+    bottom: 84px;
+    left: 102px;
+    width: 30%;
+}
+
+.SldrVrSwntuv .SldrImgvrmn .SldrImg {
+    width: 100%;
+    position: relative;
+    line-height: 0;
+}
+
+.SldrVrSwntuv .SldrImgvrmn .SldrCnt h1 {
+    font-size: 48px;
+    color: #fff;
+    font-family: "CenturyGothic-Bold";
+    line-height: 1;
+}
+
+.SldrVrSwntuv .SldrImgvrmn .SldrImg::before {
+    width: 100%;
+    height: 80%;
+    top: auto;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    content: "";
+    background-image: linear-gradient(transparent, #000000d6);
+}
+
+.cl12mnSlvrSwn {
+    position: absolute;
+    width: 55%;
+    right: 115px;
+    bottom: 76px;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.cl12mnSlvrSwn p {
+    color: #fff;
+}
+
+
+.LstingTrmnt{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Lstrpsemnvr {
+    padding: 100px 0px;
+    position: relative; 
+    display: block;
+    overflow: hidden;
+    width: 100%;
+}
+
+.Lstrpsemnvr:nth-child(even) {
+    background-color: #ebebeb;
+}
+
+.Lstrpsemnvr:nth-child(even) .ImgIcnps {
+    display: none;
+}
+
+.Lstrpsemnvr:nth-child(even) .cl12cntmnvr {
+    flex-direction: row-reverse;
+}
+
+.cl12cntmnvr {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cl12cntmnvr .cl6mntrt {
+    width: 40%;
+}
+
+.cl12cntmnvr .cl6mntrt img {
+    width: 100%;
+}
+
+.cl12cntmnvr .TrmctsOptnvr {
+    width: 55%;
+    position: relative;
+}
+
+.cl12cntmnvr .TrmctsOptnvr h4 {
+    font-size: 36px;
+    color: #000;
+    font-weight: 700;
+    line-height: 1.4; 
+    font-family: "CenturyGothic-Bold";
+}
+
+.cl12cntmnvr .TrmctsOptnvr small {
+    font-size: 18px;
+    color: #000;
+    font-weight: 500;
+
+}
+
+.TtleTrmnt {
+    margin-bottom: 20px;
+}
+
+.cl12cntmnvr .TrmctsOptnvr .Lnmemcmn {
+    display: block;
+    width: 50px;
+    height: 4px;
+    background-color: #1da1b8; 
+    margin-top: 15px;
+}
+
+.cl12cntmnvr .TrmctsOptnvr p  {
+    color: #000000;
+    font-size: 16px;
+    text-align: justify;
+    font-weight: 400;
+}
+
+.SringOptrnmtOptin  {
+    margin-top: 40px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.SringOptrnmtOptin .cl3Rptm p {
+    font-size: 14px;
+    color: #1da1b8;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.SringOptrnmtOptin .cl3Rptm p a {
+    font-size: 14px;
+    color: #1da1b8;
+    text-transform: uppercase;     
+    font-weight: 600;
+}
+
+.SringOptrnmtOptin .cl3Rptm p  img {
+    vertical-align: middle;
+    margin: 0 10px;
+}
+
+.CntWthVr {
+    width: 90%;
+    position: relative;
+}
+
+.ImgIcnps {
+    position: absolute;
+    right: -66px;
+    top: 50%;
+    transform: translate(0px, -50%);
+    opacity: 0.1;
+}
+
+.Lstrpsemnvr:last-child {
+    padding: 0px 0px;
+}
+
+.Lstrpsemnvr:last-child .ImgIcnps {
+    display: none;
+}
+
+.Lstrpsemnvr:last-child  .container {
+    width: 100%;
+    max-width: 100%;
+}
+
+.Lstrpsemnvr:last-child  .container .cl12cntmnvr {
+    flex-wrap: wrap;
+}
+
+.Lstrpsemnvr:last-child  .container .cl12cntmnvr .cl6mntrt {
+    width: 100%;
+    line-height: 0;
+}
+
+.Lstrpsemnvr:last-child  .container .cl12cntmnvr .cl6mntrt img {
+    width: 100%;
+}
+
+.Lstrpsemnvr:last-child  .container .cl12cntmnvr .TrmctsOptnvr {
+    position: absolute;
+    top: 50%;
+    width: 35%;
+    transform: translate(0px, -50%);
+    left: 150px;
+}
+.Lstrpsemnvr:last-child  .container .cl12cntmnvr .TrmctsOptnvr .TtleTrmnt small,
+.Lstrpsemnvr:last-child  .container .cl12cntmnvr .TrmctsOptnvr .TtleTrmnt h4  {
+    color: #fff;
+}
+
+.Lstrpsemnvr:last-child  .container .cl12cntmnvr .TrmctsOptnvr .TtleTrmnt .Lnmemcmn {
+    background-color: #fff;
+}
+
+.Lstrpsemnvr:last-child  .container .cl12cntmnvr .TrmctsOptnvr .CntWthVr {
+    width: 100%;
+}
+
+.Lstrpsemnvr:last-child  .container .cl12cntmnvr .TrmctsOptnvr .CntWthVr p {
+    color: #fff;
+    text-align: left;
+}
+
+.Lstrpsemnvr:last-child  .container .cl12cntmnvr  .SringOptrnmtOptin {
+    width: 100%;
+
+}
+.Lstrpsemnvr:last-child  .container .cl12cntmnvr  .SringOptrnmtOptin p,
+.Lstrpsemnvr:last-child  .container .cl12cntmnvr  .SringOptrnmtOptin a {
+    color: #fff;
+}
+
+.Lstrpsemnvr:last-child  .container .cl12cntmnvr  .SringOptrnmtOptin a img {
+    filter: brightness(1000);
+}
+
+
+@media (max-width: 991px) {
+    .SldrImg img {
+      width: 100%; 
+    }
+
+    .Lstrpsemnvr {
+        padding: 30px 0px;
+    }
+
+    .cl12cntmnvr .TrmctsOptnvr {
+        width: 56%;
+    }
+
+    .TtleTrmnt {
+        margin-bottom: 15px;
+    }
+
+    .CntWthVr {
+        width: 100%;
+    }
+
+    .SringOptrnmtOptin .cl3Rptm p img {
+        width: 15px;
+        margin: 0px 7px;
+    }
+
+    .Lstrpsemnvr:last-child .container .cl12cntmnvr .TrmctsOptnvr {
+        width: 56%;
+        left: 30px;
+    }    
+
+    .SringOptrnmtOptin .cl3Rptm p {
+        font-size: 11px;
+        text-align: left;
+    }
+
+    .SringOptrnmtOptin .cl3Rptm p a {
+        font-size: 11px;
+    }
+
+    .SringOptrnmtOptin {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .SldrVrSwntuv .SldrImgvrmn .SldrCnt {
+        bottom: 142px;
+        width: 100%;
+        left: 0px;
+        text-align: center;
+    }
+
+    .SldrVrSwntuv .SldrImgvrmn .SldrCnt h1 {
+        font-size: 32px;
+    }
+
+    .cl12mnSlvrSwn {
+        width: 90%;
+        right: 30px;
+        bottom: 25px;
+    }
+
+    .IcnimgSwn {
+        height: 60px;
+        margin-bottom: 8px;
+    }
+
+    
+}
+
+@media (max-width: 767px) {
+  
+    .SldrVrSwntuv .SldrImgvrmn {
+        height: 40vh;
+    }
+
+    .SldrVrSwntuv .SldrImgvrmn .SldrImg {
+        height: 100%;
+        width: 100%;
+    }
+
+    .SldrVrSwntuv .SldrImgvrmn .SldrImg img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .cl12mnSlvrSwn {
+        width: 95%;
+        right: 6px;
+        bottom: 18px;
+    }
+
+    .IcnimgSwn {
+        height: 48px;
+        margin-bottom: 0px;
+        width: 28px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .IcnimgSwn img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .SldrVrSwntuv .SldrImgvrmn .SldrCnt {
+        bottom: 92px;
+    }
+
+    .SldrVrSwntuv .SldrImgvrmn .SldrCnt h1 {
+        font-size: 20px;
+    }
+
+    .cl12mnSlvrSwn p {
+        font-size: 10px;
+    }
+
+    .ImgIcnps {
+        display: none;
+    }
+
+    .cl12cntmnvr {
+        flex-wrap: wrap;
+    }
+
+    .cl12cntmnvr .cl6mntrt {
+        width: 100%;
+    }
+
+    .cl12cntmnvr .TrmctsOptnvr {
+        width: 100%;
+    }
+
+    .cl12cntmnvr .TrmctsOptnvr h4 {
+        font-size: 24px;
+        line-height: 1.4;
+    }
+
+    .cl12cntmnvr .TrmctsOptnvr small {
+        font-size: 14px;
+    }
+
+    .cl12cntmnvr .TrmctsOptnvr .Lnmemcmn {
+        margin-top: 8px;
+    }
+
+    .cl12cntmnvr .TrmctsOptnvr p {
+        font-size: 14px;
+    }
+
+    .Lstrpsemnvr {
+        padding: 20px 0px;
+    }
+
+    .SringOptrnmtOptin .cl3Rptm p a {
+        font-size: 10px;
+        white-space: nowrap;
+    }
+
+    .SringOptrnmtOptin .cl3Rptm p img {
+        margin: 0px 1px;
+        width: 12px;
+    }
+
+    .Lstrpsemnvr:last-child {
+        height: 50vh;
+    }
+
+    .Lstrpsemnvr:last-child .container {
+        height: 100%;
+    }
+
+    .Lstrpsemnvr:last-child .container .cl12cntmnvr {
+        background-color: #000;
+        height: 100%;
+    }
+
+    .Lstrpsemnvr:last-child .container .cl12cntmnvr .cl6mntrt {
+        height: 100%;
+    }
+
+    .Lstrpsemnvr:last-child .container .cl12cntmnvr .cl6mntrt img {
+        height: 100%;
+        object-fit: cover;
+        opacity: 0.5;
+    }
+
+    .Lstrpsemnvr:last-child .container .cl12cntmnvr .TrmctsOptnvr  {
+        width: 90%;
+        left: 15px;
+    }
+
+}

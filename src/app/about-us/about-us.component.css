@@ -1,0 +1,985 @@
+.mainprtAbtmn {
+    width: 100%;
+    position: relative;
+    display: block;
+}
+
+.imgSecAbtmnvr {
+    width: 100%;
+    position: relative;
+    display: block;
+    line-height: 0;
+}
+
+.cntimgSemvr::before,
+.ImgSwnvrDr::before,
+.imgSecAbtmnvr::before {
+    width: 100%;
+    height: 50%;
+    top: auto;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    content: "";
+    background-image: linear-gradient(transparent, #000000c7)
+}
+
+.imgSecAbtmnvr img {
+    width: 100%;
+}
+
+.AbtbnSwmvr {
+    position: absolute;
+    left: 0;
+    bottom: 70px;
+    right: 0;
+    padding: 0px 100px;
+}
+
+.AbtbnSwmvr .cl12mnabtvrSwn  {
+    width: 100%; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cl4mnvrSwbabt {
+    display: flex;
+    align-items: center;
+}
+
+.cl4mnvrSwbabt .icon {
+    line-height: 0;
+}
+
+.cl4mnvrSwbabt .iconcntmnvr {
+    margin-left: 20px;
+}
+
+.AbtbnrSwn {
+    width: 25%;
+}
+.AbtbnrSwn h1 {
+    font-size: 48px;
+    font-family: "CenturyGothic-Bold";
+    line-height: 1;
+    color: #fff;
+}
+
+.cl4mnvrSwbabt .iconcntmnvr b {
+    font-size: 24px;
+    color: #fff;
+    font-family: "CenturyGothic-Bold";
+    line-height: 0;
+}
+
+.cl4mnvrSwbabt .iconcntmnvr p {
+   font-size: 18px;
+   font-family: "CenturyGothic";
+   color: #fff;
+   line-height: 1.2;
+}
+
+.AbtClmnvr {
+    width: 100%;
+    position: relative;
+    padding: 50px 0px;
+    overflow: hidden;
+
+}  
+
+.AbtClmnvr .Swnvr {
+    width: 100%;
+    position: relative;
+}
+
+.AbtClmnvr .Swnvr .Ttlemn {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.AbtClmnvr .Swnvr .Ttlemn h2 {
+    font-size: 36px;
+    color: #000;
+    font-family: 'CenturyGothic';
+    width: 60%;
+    margin: 0 auto;
+    line-height: 1.1;
+}
+
+.AbtClmnvr .cl12SwnWnSwnAbt {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: left;   
+}
+
+.AbtClmnvr .cl12SwnWnSwnAbt .clswn6Abt {
+    width: 48%;
+    position: relative;
+    margin-right: 50px;
+}
+
+.AbtClmnvr .cl12SwnWnSwnAbt .clswn6Abt:last-child {
+    width: 40%;
+}
+
+.AbtClmnvr .cl12SwnWnSwnAbt .clswn6Abt p  {
+    font-size: 16px;
+    color: #000;
+    text-align: justify;
+    line-height: 28px;
+}
+.AbtClmnvr .cl12SwnWnSwnAbt .clswn6Abt .btnAllNmrl {
+    margin-top: 70px;
+}
+
+.AbtClmnvr .cl12SwnWnSwnAbt .clswn6Abt .btnAllNmrl a {
+    font-size: 14px;
+    color: #666666;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.AbtClmnvr .cl12SwnWnSwnAbt .clswn6Abt:last-child img{
+   width: auto;
+} 
+
+.AbtClmnvr .cl12SwnWnSwnAbt .clswn6Abt img {
+    width: 100%;
+}
+
+.IcnFlmshwb {
+    position: absolute;
+    right: -70px;
+    top: 50%;
+    transform: translate(0px, -50%);
+    opacity: 0.1;
+}
+
+.ImgSwnvrDr {
+    position: relative;
+}
+
+.Abtpagedetails .Vdeicmnvr{
+    right: 60px;
+    bottom: 55px;
+}
+
+.Abtpagedetails .exprmnmnvr {
+    position: absolute;
+    color: #fff;
+    left: 70px;
+    bottom: 60px;
+    font-size: 24px;
+    font-family: "CenturyGothic-Bold";
+}
+
+/* Leader Ship */
+.LdrShipPgemn {
+    padding: 75px 0px;
+    position: relative;
+}
+
+.LdrShipPgemn .TtlemnvrSwn {
+    width: 100%;
+    position: relative;
+    display: block;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.LdrShipPgemn .TtlemnvrSwn h3 {
+    font-size: 36px;
+    color: #000;
+    font-family: "CenturyGothic-Bold";
+}
+
+.LdrShipPgemn .Abtcnttem {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cl12mnSwnslrmn {
+    cursor: pointer;
+}
+.cl12mnSwnslrmn:hover .imgtemSlr img {
+    transform: scale(1.1);
+}
+
+.imgtemSlr {
+    position: relative;
+    line-height: 0;
+    overflow: hidden;
+}
+
+.imgtemSlr img {
+    transition: all 1s ease;
+}
+
+.LdrShipPgemn .Abtcnttem h5 {
+    font-size: 25px;
+    color: #000;
+    font-weight: 600;
+}
+
+.LdrShipPgemn .Abtcnttem p {
+    font-size: 12px;
+    color: #000;
+    font-weight: 500;
+}
+
+.LdrShipPgemn .owl-theme .owl-nav .owl-prev {
+    left: -60px;
+}
+
+.LdrShipPgemn .owl-theme .owl-nav .owl-next {
+    right: -60px;
+}
+
+/* Team poupup */
+
+.team-detail {
+    position: fixed;
+    width: 900px;
+    max-width: 1000px;
+    margin: auto;
+    background: #fff;
+    padding: 25px;
+    margin-top: 400px;
+    transition: all 1s ease;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.team-detail:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.popCls {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.popCls {
+    top: 20px;
+    right: 20px;
+    opacity: .4;
+}
+
+.popCls span:before,
+.popCls span:after {
+    width: 100%;
+    height: 2px;
+    top: 50%;
+    right: auto;
+    bottom: auto;
+    left: 50%;
+    position: absolute;
+    content: "";
+    /* background: #ffffff; */
+}
+
+.popCls span {
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+.popCls span:before {
+    -webkit-transform: translate(-50%, -50%) rotate(45deg);
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.popCls span:before,
+.popCls span:after {
+    background-color: #000000;
+}
+
+.popCls span:after {
+    -webkit-transform: translate(-50%, -50%) rotate(-45deg);
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.teamleft {
+    float: left;
+    width: 25%;
+}
+
+.teamleft img {
+    width: 100%;
+}
+
+.teamright {
+    float: right;
+    width: 70%;
+}
+
+.teamright h2 {
+    font-size: 24px;
+}
+
+.teamright h3 {
+    font-size: 16px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
+
+.teamright h4 {
+    font-size: 16px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.teamright P {
+    font-size: 14PX;
+    color: #000;
+    margin-bottom: 25px;
+    line-height: 24px;
+    text-align: justify;
+}
+
+.teamright ul {
+    margin-bottom: 15px;
+}
+
+.teamright ul li {
+    padding-left: 33px;
+    position: relative;
+    line-height: 24px;
+    color: #000;
+    font-size: 14px;
+}
+
+.teamright ul li:after {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 8px;
+    width: 5px;
+    height: 5px;
+    background: #efb31a;
+    border-radius: 50%;
+}
+
+.team-inner {
+    width: 100%;
+    max-height: 400px;
+    overflow: auto;
+}
+
+.popShow {
+    z-index: 12;
+    visibility: visible;
+    opacity: 1;
+}
+
+.teamQry-wrapBx {
+    opacity: 0;
+    visibility: hidden;
+    overflow: hidden;
+    height: 0;
+    position: fixed;
+    transition: all 1s;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: auto;
+    height: 100%;
+    transform: none;
+    background: rgb(0 0 0 / 33%);
+    z-index: 10;
+}
+.teamQryBtn {
+    cursor: pointer;
+}
+
+.teamQry-wrapBx.active {
+    opacity: 1;
+    visibility: visible;
+    height: 100%;
+    overflow: visible;
+
+}
+
+.teamQry-wrapBx.active .team-detail {
+    margin-top: 0px;
+}
+
+.AbtPgemne p {
+    text-align: justify;
+}
+
+.LtmnSwnEqumnts {
+    width: 100%;
+    position: relative;
+}
+
+.TtlmnvrSwn {
+    width: 55%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 55px;
+}
+
+.TtlmnvrSwn h3 {
+    font-size: 36px;
+    color: #000;
+    font-family: "CenturyGothic-Bold";
+    margin: 0 auto;
+    line-height: 1.1;
+    margin-bottom: 25px;
+    width: 85%;
+}
+
+.TtlmnvrSwn p {
+    font-size: 16px;
+    color: #666666;
+    font-weight: 500;
+}
+
+.cl12mnSldrmn {
+    width: 100%;
+    position: relative;
+    display: block;
+}
+
+.cl12mnSldrmn .cntimgSemvr {
+    width: 100%;
+    position: relative;
+    line-height: 0;
+}
+
+.cl12mnSldrmn .cntimgSemvr img {
+    width: 100%;
+}
+
+.CntvrSwnSwn {
+    position: absolute;
+    bottom: 100px;
+    left: 0px;
+    right: 0px;
+    padding: 0px 130px;
+}
+
+.cl12mnswvr {
+    width: 100%;
+    position: relative;
+    display: block;
+    align-items: center;
+}
+
+.IcnvrSwn {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.cl12mnswvr .cntmnvrSwn {
+    padding-left: 60px;
+}
+
+.cl12mnswvr .cntmnvrSwn p {
+    color: #fff;
+    font-family: "CenturyGothic-Bold";
+}
+
+.LtmnSwnEqumnts .cl12mnSldrmn .IcnvrSwn img {
+    width: auto;
+}
+
+.AcemntSwnvr {
+    padding: 75px 0px 100px 0px ;
+}
+
+.CntAtmn {
+    width: 100%;
+    position: relative;
+}
+
+@media (max-width: 991px) {
+    .AbtbnSwmvr .cl12mnabtvrSwn {
+        flex-wrap: wrap;
+    }
+    .CntvrSwnSwn {
+      bottom: 45px;
+      padding: 0px 50px;
+    }
+
+    .AcemntSwnvr {
+        padding: 35px 0px 45px 0px;
+    }
+
+    .cl12DcmnSwn {
+        height: auto;
+    }
+
+    .TtlmnvrSwn {
+        width: 95%;
+        margin-bottom: 25px;
+    }
+
+    .LdrShipPgemn {
+        padding: 35px 0px;
+    }
+
+    .LdrShipPgemn .TtlemnvrSwn {
+        margin-bottom: 20px;
+    }
+
+    .PsmnvrSw {
+        display: none;
+    }
+
+    .Abtpagedetails .exprmnmnvr {
+        left: 28px;
+        bottom: 32px;
+        font-size: 18px;
+    }
+
+    .Abtpagedetails .Vdeicmnvr {
+        right: 25px;
+        bottom: 25px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .AbtClmnvr .cl12SwnWnSwnAbt {
+        align-items: self-start;
+    }
+
+    .AbtClmnvr .Swnvr .Ttlemn h2 {
+        width: 100%;
+    }
+
+    .cl12DcmnSwn .cl4nmnvrSwn .PrdMnSwbCtmn h4 {
+        font-size: 24px;
+    }
+
+    .cl12DcmnSwn .cl4nmnvrSwn .PrdMnSwbCtmn small {
+        font-size: 14px;
+        padding: 10px 0px;
+    }
+
+    .cl12DcmnSwn .cl4nmnvrSwn .PrdMnSwbCtmn p  {
+        font-size: 16px;
+        margin-top: 12px;
+    }
+
+    .cl12DcmnSwn .cl4nmnvrSwn .ViwPromn a img {
+        width: auto;
+        margin-top: 0px;
+    }
+
+    .cl12DcmnSwn .cl4nmnvrSwn .PrdMnSwbCtmn img {
+        width: 75px;
+        margin-top: 15px;
+    }
+
+    .ViwPromn{
+        margin-top: 12px;
+    }
+
+    .cl12DcmnSwn .cl4nmnvrSwn {
+        width: 50%;   
+    }
+
+    .cl12DcmnSwn .cl4nmnvrSwn .PrdMnSwbCtmn {
+        padding: 10px;
+    }
+
+    .cl12DcmnSwn .cl6mnvrImg {
+        width: 50%;  
+    } 
+
+    .AbtClmnvr .cl12SwnWnSwnAbt .clswn6Abt:last-child {
+        width: 50%;
+    }
+
+    .AbtbnSwmvr {
+        bottom: 20px;
+        padding: 0px 20px;
+    }
+
+    .AbtClmnvr .cl12SwnWnSwnAbt .clswn6Abt {
+        width: 50%;
+        margin-right: 20px;
+    }
+
+    .AbtClmnvr .Swnvr .Ttlemn {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .AbtbnrSwn {
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+}
+
+
+@media (max-width: 767px) {
+  
+   .AbtbnSwmvr {
+       bottom: 15px;
+       padding: 0px 7px;
+   }
+   .AbtbnrSwn {
+     width: 20%;
+   }
+
+   .AbtbnrSwn h1 {
+       font-size: 24px;
+   }
+
+   .cl4mnvrSwbabt .icon img{
+      width: 35px;
+   } 
+   .cl4mnvrSwbabt .iconcntmnvr{
+       margin-left: 10px;
+   }
+   .cl4mnvrSwbabt .iconcntmnvr b {
+       font-size: 14px;
+   }
+
+   .cl4mnvrSwbabt .iconcntmnvr p {
+       font-size: 10px;
+       line-height: 1.2;
+   }
+
+
+   
+   .AbtbnSwmvr .cl12mnabtvrSwn h1 {
+       font-size: 24px;
+       line-height: 1;
+   }
+
+   .AbtClmnvr {
+    padding: 25px 0px;
+}
+.AbtClmnvr .Swnvr .Ttlemn img {
+    width: 50px;
+}
+.AbtClmnvr .Swnvr .Ttlemn h2 {
+    font-size: 24px;
+    width: 100%;
+}
+
+.AbtClmnvr .Swnvr .Ttlemn {
+    margin-bottom: 25px;
+}
+
+.AbtClmnvr .cl12SwnWnSwnAbt {
+    flex-wrap: wrap;
+}
+.AbtClmnvr .cl12SwnWnSwnAbt .clswn6Abt {
+    width: 100%;
+    margin-right: 0px;
+}
+.AbtClmnvr .cl12SwnWnSwnAbt .clswn6Abt:last-child {
+    width: 100%;
+}
+.IcnFlmshwb {
+    display: none;
+}
+
+.AbtClmnvr .cl12SwnWnSwnAbt .clswn6Abt .btnAllNmrl {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.AbtClmnvr .cl12SwnWnSwnAbt .clswn6Abt p {
+    text-align: justify;
+    font-size: 14px;
+    line-height: 23px;
+}
+.Vdeicmnvr {
+    width: 35px;
+    height: 35px;
+    right: 20px;
+    bottom: 30px;
+}
+.Vdeicmnvr::before {
+    width: 40px;
+    height: 40px;
+}
+.Vdeicmnvr img {
+    width: 5px !important;
+}
+
+.cl12DcmnSwn {
+    width: 100%;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+.cl12DcmnSwn .cl4nmnvrSwn .PrdMnSwbCtmn {
+    padding: 30px 25px 30px 20px;
+}
+
+.cl12DcmnSwn .cl4nmnvrSwn .PrdMnSwbCtmn h4 {
+   font-size: 28px;
+   margin-bottom: 5px;
+}
+
+.cl12DcmnSwn .cl4nmnvrSwn .PrdMnSwbCtmn small {
+    padding: 14px 0px;
+    line-height: 1.3;
+}
+
+.cl12DcmnSwn .cl4nmnvrSwn .PrdMnSwbCtmn p {
+    margin-top: 15px;
+    font-size: 16px;   
+}
+
+.cl12DcmnSwn .cl4nmnvrSwn {
+    width: 100%;
+}
+ 
+.cl12DcmnSwn .cl6mnvrImg {
+    width: 100%;
+}
+
+.PsmnvrSw {
+    width: 130px;
+    bottom: -30px;
+    opacity: 0.2;
+}
+.PsmnvrSw img {
+    width: 100%;
+}
+.Abtpagedetails .exprmnmnvr {
+    left: 14px;
+    bottom: 32px;
+    font-size: 16px;
+}
+
+.Abtpagedetails .Vdeicmnvr {
+    right: 20px;
+    bottom: 20px;
+}
+
+.LdrShipPgemn {
+    padding: 20px 0px;
+}
+
+.LdrShipPgemn .TtlemnvrSwn {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.TtlmnvrSwn {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 0px 10px;
+}
+
+.TtlmnvrSwn p  {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.LdrShipPgemn .TtlemnvrSwn h3 {
+    font-size: 24px;
+    width: 100%;
+    margin-bottom: 15px;
+    line-height: 1.1;
+}
+
+.LtmnSwnEqumnts .TtlmnvrSwn h3 {
+    width: 100%;
+    margin-bottom: 12px; 
+    font-size: 24px;
+}
+
+.CntvrSwnSwn{
+    padding: 0px 25px;
+    bottom: 40px;
+}
+.AcemntSwnvr {
+    padding: 35px 0px 40px 0px;
+}
+.cl12mnswvr .cntmnvrSwn p {
+    font-size: 14px;
+    line-height: 1.2;
+} 
+
+.cl12mnswvr .cntmnvrSwn {
+    padding-left: 35px;
+}
+
+.IcnvrSwn {
+    width: 25px;
+    height: 25px;
+}
+
+.LtmnSwnEqumnts .cl12mnSldrmn .IcnvrSwn img {
+    width: 12px;
+}
+ 
+.AcemntSwnvr .TtlmnvrSwn h3 {
+    font-size: 24px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.AbtbnSwmvr .cl12mnabtvrSwn {
+    flex-wrap: wrap;
+}
+
+.AbtbnSwmvr .cl12mnabtvrSwn .AbtbnrSwn {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.imgSecAbtmnvr::before {
+    height: 85%;
+}
+
+.cl4mnvrSwbabt {
+    width: 33%;
+    line-height: 1;
+}
+
+.cl4mnvrSwbabt .icon img{
+  width: 100%;
+}
+
+.cntimgSemvr::before {
+    height: 70%;
+}
+
+.LdrShipPgemn .Abtcnttem{
+    margin-top: 0px;
+    position: absolute;
+    bottom: 20px;
+    z-index: 1;
+}
+
+.LdrShipPgemn .Abtcnttem  h5 {
+   font-size: 20px;     
+   color: #fff;
+}
+
+.LdrShipPgemn .Abtcnttem p {
+    color: #fff;
+}
+
+.team-detail {
+    width: 100%;
+    max-width: 100%;
+    padding: 15px;
+    height: 100%;
+}
+
+.teamQry-wrapBx.active {
+   background-color: #fff;
+}
+
+.teamleft {
+   width: 100%;
+   margin-bottom: 15px;
+}
+
+.teamleft img {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+}
+
+.teamright {
+    width: 100%;
+}
+
+.teamQry-wrapBx .popCls {
+    top: 0px;
+    right: 0px;
+}
+
+.teamright h2 {
+    font-size: 18px;
+}
+
+.teamright h3 {
+    font-size: 14px;
+    padding-bottom: 6px;
+    margin-bottom: 14px;
+}
+
+.teamright P {
+    margin-bottom: 10px;
+    line-height: 22px;
+}
+
+.cl4mnvrSwbabt .icon {
+    width: 24px;
+}
+
+.imgSecAbtmnvr {
+    height: 40vh;
+}
+
+.imgSecAbtmnvr img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.imgtemSlr {
+    position: relative;
+}
+
+.imgtemSlr::before {
+    width: 100%;
+    height: 50%;
+    top: auto;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    content: "";
+    background-image: linear-gradient(transparent, #000000c7);
+}
+
+.cl12mnSldrmn .cntimgSemvr {
+    height: 40vh;
+}
+
+.cl12mnSldrmn .cntimgSemvr img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+}

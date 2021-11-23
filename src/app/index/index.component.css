@@ -1,0 +1,1631 @@
+.SldrCnvrSwnCmnVr {
+    width: 100%;
+    position: relative;
+}
+.SldrVrSwntuv {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.SldrVrSwntuv .SldrImgvrmn {
+    width: 100%;
+    position: relative;
+}
+
+.SldrVrSwntuv .SldrImgvrmn .SldrCnt{
+    position: absolute;
+    bottom: 84px;
+    left: 102px;
+    width: 30%;
+}
+
+.SldrVrSwntuv .SldrImgvrmn .SldrImg {
+    width: 100%;
+    position: relative;
+    line-height: 0;
+}
+
+.SldrVrSwntuv .SldrImgvrmn .SldrCnt h1 {
+    font-size: 48px;
+    color: #fff;
+    font-family: "CenturyGothic-Bold";
+    line-height: 1;
+}
+
+.SldrVrSwntuv .SldrImgvrmn .SldrImg::before {
+    width: 100%;
+    height: 80%;
+    top: auto;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    content: "";
+    background-image: linear-gradient(transparent, #000000b0);
+}
+
+.cl12mnSlvrSwn {
+    align-items: baseline;
+    position: absolute;
+    width: 58%;
+    right: 115px;
+    bottom: 76px;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: baseline;
+}
+
+.cl12mnSlvrSwn .cl2Rtmnvr .IcnimgSwn img {
+    width: auto;
+    display: inline-block;
+}
+
+.cl12mnSlvrSwn p {
+    color: #fff;
+    margin-top: 5px;
+    line-height: 1.2; 
+}
+
+.AbtClmnvr {
+    width: 100%;
+    position: relative;
+    padding: 50px 0px;
+    overflow: hidden;
+
+}  
+
+.AbtClmnvr .Swnvr {
+    width: 100%;
+    position: relative;
+}
+
+.AbtClmnvr .Swnvr .Ttlemn {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.AbtClmnvr .Swnvr .Ttlemn h2 {
+    font-size: 36px;
+    color: #000;
+    font-family: 'CenturyGothic';
+    width: 60%;
+    margin: 0 auto;
+    line-height: 1.1;
+}
+
+.AbtClmnvr .cl12SwnWnSwnAbt {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: left;   
+}
+
+.AbtClmnvr .cl12SwnWnSwnAbt .clswn6Abt {
+    width: 48%;
+    position: relative;
+    margin-right: 50px;
+}
+
+.AbtClmnvr .cl12SwnWnSwnAbt .clswn6Abt:last-child {
+    width: 40%;
+}
+
+.AbtClmnvr .cl12SwnWnSwnAbt .clswn6Abt p  {
+    font-size: 16px;
+    color: #000;
+    text-align: left;
+    line-height: 28px;
+}
+.AbtClmnvr .cl12SwnWnSwnAbt .clswn6Abt .btnAllNmrl {
+    margin-top: 70px;
+}
+
+.AbtClmnvr .cl12SwnWnSwnAbt .clswn6Abt .btnAllNmrl a {
+    font-size: 14px;
+    color: #666666;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.AbtClmnvr .cl12SwnWnSwnAbt .clswn6Abt:last-child img{
+   width: auto;
+} 
+
+.AbtClmnvr .cl12SwnWnSwnAbt .clswn6Abt img {
+    width: 100%;
+}
+
+.Vdeicmnvr {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    border: 2px solid #fff; 
+    justify-content: center;
+    position: absolute;
+    right: 30px;
+    bottom: 40px;
+    cursor: pointer;
+}
+
+.Vdeicmnvr .cl12MnSwvr {
+    width: 100%;
+    position: relative;
+}
+
+.Vdeicmnvr:before {
+    width: 65px;
+    height: 65px;
+    top: 50%;
+    right: 0;
+    bottom: 0;
+    left: 50%;
+    position: absolute;
+    content: "";
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: #ffffff;
+    border-radius: 50%;
+    display: block;
+    -webkit-animation: pulse-border 1500ms ease-out infinite;
+    animation: pulse-border 1500ms ease-out infinite;
+}
+
+.Vdeicmnvr img {
+    width: auto !important;
+}
+.IcnFlmshwb{
+    position: absolute;
+    right: -70px;
+    top: 50%;
+    transform: translate(0px, -50%);
+    opacity: 0.1;
+}
+
+
+@-webkit-keyframes pulse-border {
+    0% {
+      -webkit-transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+              transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+      opacity: 0.5;
+    }
+    100% {
+      -webkit-transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+              transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+      opacity: 0;
+    }
+  }
+  
+@keyframes pulse-border {
+    0% {
+      -webkit-transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+              transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+      opacity: 0.5;
+    }
+    100% {
+      -webkit-transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+              transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+      opacity: 0;
+    }
+}
+
+.cl12MnSwvr {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.cl12MnSwvr .cl4mnSwnTuv{
+    width: 18%;
+    position: relative;
+    text-align: center;
+}
+
+.cl12MnSwvr .cl4mnSwnTuv small{
+   font-size: 18px;
+   color: #000;
+   font-family: "CenturyGothic-Bold";
+} 
+
+.cl12MnSwvr .cl4mnSwnTuv p {
+    display: block;
+    font-size: 16px;
+    color: #000;
+    font-family: "CenturyGothic";
+}
+.cl12DcmnSwn {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #1da1b8;
+}
+
+.cl12DcmnSwn .cl4nmnvrSwn {
+    width: 40%;
+    position: relative;
+    background-color: #1da1b8;
+    height: 100%;
+}
+
+.cl12DcmnSwn .cl4nmnvrSwn .PrdMnSwbCtmn {
+    width: 100%;
+    padding: 80px 90px 80px 115px;
+    line-height: 1;
+    height: 100%;
+}
+
+.cl12DcmnSwn .cl4nmnvrSwn .PrdMnSwbCtmn h4 {
+    font-size: 40px;
+    font-family: "CenturyGothic";
+    margin-bottom: 0px;
+    color: #ffffff;
+}
+
+.cl12DcmnSwn .cl4nmnvrSwn .PrdMnSwbCtmn span {
+    display: block;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.cl12DcmnSwn .cl4nmnvrSwn .PrdMnSwbCtmn small {
+    font-size: 18px;
+    padding: 25px 0px;
+    display: block;
+    font-weight: 400;
+    color: #ffffff;
+    position: relative;
+}
+
+.cl12DcmnSwn .cl4nmnvrSwn .PrdMnSwbCtmn small:before {
+    bottom: 0px;
+    content: '';
+    left: 0px;
+    width: 70px;
+    height: 2px;
+    position: absolute;
+    background-color: #ffffff;
+
+}
+
+.cl12DcmnSwn .cl4nmnvrSwn .PrdMnSwbCtmn p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #ffffff;
+    margin-top: 25px;
+}
+
+.ViwPromn {
+    margin-top: 25px;
+}
+
+.ViwPromn a {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+    display: inline-block;
+}
+
+.cl12DcmnSwn .cl4nmnvrSwn .ViwPromn a img {
+    vertical-align: middle;
+    margin-top: 0px;
+    filter: brightness(1000);
+    margin-left: 5px;
+}
+
+.cl12DcmnSwn .cl4nmnvrSwn .PrdMnSwbCtmn img {
+    margin-top: 25px;
+}
+
+.cl12DcmnSwn .cl6mnvrImg {
+    width: 60%;
+    height: 100%;
+} 
+
+.PsmnvrSw {
+    position: absolute;
+    right: 8px;
+    bottom: -72px;
+}
+
+.cl12DcmnSwn .cl6mnvrImg .ImgSwnvrDr {
+    width: 100%;
+    height: 100%;
+}
+
+.cl12DcmnSwn .cl6mnvrImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cl12DcmnSwn .cl6mnvrImg .Vdeicmnvr img {
+  height: auto;
+  width: auto;
+}
+
+.LstrmnSrmnVr {
+    width: 100%;
+    position: relative;
+
+}
+
+.LstrmnSrmnVr {
+    width: 100%;
+    position: relative;
+    display: block;
+}
+
+.LstrmnSrmnVr .TtlmnvrSwh {
+    width: 100%;
+    position: relative; 
+    display: block;
+    margin: 40px 0px;
+}
+
+.LstrmnSrmnVr .TtlmnvrSwh h5 {
+    font-size: 36px;
+    color: #424242;
+    text-transform: uppercase;
+    font-family: 'CenturyGothic';
+}
+
+.LstrmnSrmnVr .TtlmnvrSwh .container {
+    position: relative;
+    text-align: center;
+}
+
+.LstrmnSrmnVr .TtlmnvrSwh a {
+    color: #666666;
+    text-transform: uppercase;
+    font-size: 14px;
+    position: absolute;
+    right: 0px;
+    bottom: 18px;
+    font-weight: 700;
+
+}
+
+.LstrmnSrmnVr .TtlmnvrSwh a img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.BckimgSwnmnCmt {
+    width: 100%;
+    position: relative;
+    /* background-image: url('../images/Srvebnner.jpg'); */
+    height: 108vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 40px 0px;
+    background-attachment: fixed;
+}
+
+.BckimgSwnmnCmt .container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%)
+}
+
+.cl12SwnmnCt {
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+} 
+
+.cl12SwnmnCt .cl6mnSrvmn:hover .CntTrmnvr h4 {
+    color: #fff;
+} 
+
+.cl12SwnmnCt .cl6mnSrvmn:hover .CntTrmnvr h4:before {
+    background: #fff;
+}
+
+.cl12SwnmnCt .cl6mnSrvmn:hover .CntTrmnvr p {
+    color: #fff;
+}
+
+.cl12SwnmnCt .cl6mnSrvmn:hover .CntTrmnvr a {
+    color: #fff;
+}
+
+.cl12SwnmnCt .cl6mnSrvmn:hover .CntTrmnvr a img {
+    filter: brightness(1000);
+}
+
+.cl12SwnmnCt .cl6mnSrvmn {
+    width: 48.5%;
+    position: relative;
+    padding: 35px;
+    background-color: #ffffff;
+    text-align: center;
+    transition: all  1s ease;
+}
+
+.cl12SwnmnCt .cl6mnSrvmn .CntTrmnvr a {
+    display: inline-block;
+    margin-top: 20px;
+    color: #000;
+    font-weight: 600;
+    font-size: 14px;
+    transition: all 1s ease;
+}
+
+
+
+.cl12SwnmnCt .cl6mnSrvmn .CntTrmnvr a img {
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 5px;
+    width: 15px;
+}
+
+.cl12SwnmnCt .cl6mnSrvmn:hover {
+    background-color: #1da1b8;
+}
+
+.cl12SwnmnCt .cl6mnSrvmn .ImgCntTrt {
+    width: 72px;
+    height: 72px;
+    border: 1px solid #707070;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
+
+.cl12SwnmnCt .cl6mnSrvmn .ImgCntTrt img {
+    width: 32px;
+    object-fit: contain;
+}
+.cl12SwnmnCt .cl6mnSrvmn:nth-child(1) {
+    margin-bottom: 20px;
+}
+
+.cl12SwnmnCt .cl6mnSrvmn:nth-child(2) {
+   margin-bottom: 20px;
+}
+
+.cl12SwnmnCt .cl6mnSrvmn h4 {
+    font-size: 24px;
+    color: #000;
+    font-family: "CenturyGothic-Bold";
+    position: relative;
+    padding-bottom: 10px;
+    transition: all 1s ease;
+}
+
+.cl12SwnmnCt .cl6mnSrvmn h4:before {
+    bottom: 0px;
+    content: '';
+    left: 50%;
+    transform: translate(-50%, 0px);
+    width: 60px;
+    height: 3px;
+    background: #1da1b8;
+    position: absolute;
+    transition: all 1s ease;
+}
+
+.cl12SwnmnCt .cl6mnSrvmn p {
+    font-size: 16px;
+    margin-top: 15px;
+    transition: all 1s ease;
+}
+
+.lnkall {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 1;
+    height: 100%;
+
+}
+
+.ClSwnvrMnSrvmn {
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    background-attachment: fixed;   
+}
+
+.ClSwnvrMnSrvmn .container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%)
+}
+
+.ClSwnvrMnSrvmn .container .Cslogy {
+    width: 50%;
+    position: relative;
+}
+
+.ClSwnvrMnSrvmn .container .Cslogy h5 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: #fff;
+    font-family: 'CenturyGothic';
+}
+
+.ClSwnvrMnSrvmn .container .Cslogy p {
+    color: #ffffff;
+    line-height: 1.5;
+    margin-bottom: 45px;
+    font-weight: 400;
+
+}
+
+.ClSwnvrMnSrvmn .container .Cslogy a img{
+   vertical-align: middle;
+   filter: brightness(1000);
+   margin-left: 5px;
+}
+
+.StryTellPrt {
+    padding: 60px 0px;
+    position: relative;
+    overflow: hidden;
+}
+
+.StryTellPrt .Psabmnvr {
+    position: absolute;
+    right: -35px;
+    top: 24px;
+}
+
+.GogleRvemnvr {
+    background-color: #ececec;
+    padding: 52px 0px;
+}
+
+.cl12mnvrRevwePge  {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+
+.StryTellPrt .TtlemnVr {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.StryTellPrt .TtlemnVr h3 {
+    font-size: 48px;
+    text-transform: uppercase;
+    line-height: 1.2;
+    color: #000;
+}
+
+.StryTellPrt .TtlemnVr p {
+  font-size: 16px;
+}
+
+.StryTellPrt .StrySldrMn {
+    position: relative;
+}
+
+.StryTellPrt .StrySldrMn .Vdemnvlt {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1;
+    left: auto;
+}
+
+.SldrMnVr:before {
+	width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    content: "";
+    background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#000000));
+    background-image: linear-gradient(transparent, #000000);
+    opacity: 0.9;
+}
+.StryTellPrt .StrySldrMn .Vdemnvlt .Vdemn {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    cursor: pointer;
+}
+.StryTellPrt .StrySldrMn .Vdemnvlt .Vdemn img {
+    width: 5px;
+}
+
+.StryTellPrt .StrySldrMn .StrPsmn{  
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    line-height: 1;
+
+}
+
+.StryTellPrt .StrySldrMn .StrPsmn p {
+    font-size: 18px;
+    color: #fff;
+    font-family: "CenturyGothic-Bold";
+}
+
+.StryTellPrt .StrySldrMn .StrPsmn small {
+    font-size: 10px;
+    color: #000;
+}
+
+.StryTellPrt .owl-nav .owl-prev{
+    position: absolute ;
+    left: -55px;
+}
+
+.StryTellPrt .owl-nav .owl-next{ 
+    position: absolute ;
+    right: -55px;
+}
+
+.Vdemnvlt .Vdemn:before {
+	width: 50px;
+    height: 50px;
+    top: 50%;
+    right: 0;
+    bottom: 0;
+    left: 50%;
+    position: absolute;
+    content: "";
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: #ffffff;
+    border-radius: 50%;
+    display: block;
+    -webkit-animation: pulse-border 1500ms ease-out infinite;
+    animation: pulse-border 1500ms ease-out infinite;
+}
+
+.cl12mnvrRevwePge .Lngomnvr {
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.cl12mnvrRevwePge h4 {
+    font-size: 36px;
+    font-family: "CenturyGothic";
+    text-transform: uppercase;
+}
+
+.SldrRvewPrt {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    padding: 0px 250px;
+}
+
+.SldrRvewPrt  p {
+    margin-bottom: 25px;
+}
+
+.SldrRvewPrt .RtiingMnvr b{
+  
+    font-size: 30px;
+    color: #000;
+    font-weight: 700;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.SldrRvewPrt .RtiingMnvr img {
+    margin-right: 5px;
+    width: auto;
+    display: inline-block;
+}
+
+.SldrRvewPrt .RvewPrtMnvr {
+    width: 72px;
+    height: 72px;
+    background-color: #1da1b8;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    color: #fff;
+    margin: 20px auto;
+    border-radius: 50%;
+}
+
+.AswrdMnvr {
+    width: 100%;
+    position: relative;
+    display: block;
+    padding: 75px 0px 100px;
+    background-color: #fff;
+
+}
+
+.AswrdMnvr .TtleCntmnVr  {
+    width: 55%;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.AswrdMnvr .TtleCntmnVr h4 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: 'CenturyGothic';
+    font-size: 48px;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+.AswrdMnvr .cl12RptmnvrSwn {
+    width: 100%;
+    text-align: center;
+} 
+
+.AswrdMnvr .cl12RptmnvrSwn .LogmnAerd {
+    height: 84px;
+    width: 145px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.AswrdMnvr .cl12RptmnvrSwn .LogmnAerd img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; 
+}
+
+.AswrdMnvr .cl12RptmnvrSwn h5 {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.AswrdMnvr .cl12RptmnvrSwn p {
+    color: #666666;
+}
+
+.Psmn {
+    width: 100%;
+    position: relative;
+    height: 70vh;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.BookAptmntVr {
+    width: 100%;
+    position: relative;
+    padding: 80px 0px;
+}
+ 
+.clmvr {
+    width: 60%;
+    position: relative;
+    display: block;
+    padding: 0px 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.clmvr .tilemn {
+    width: 100%;
+    position: relative;
+}
+
+.clmvr .tilemn h4 {
+    font-size: 48px;
+    font-family: "CenturyGothic";
+    width: 50%;
+    margin: 0 auto;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+.clmvr .tilemn p  {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 18px 0px;
+}
+
+.Cl12MnVrSwn {
+    width: 100%;
+    position: relative ; 
+    margin-top: 50px;
+}
+
+.vrlin {
+    position: relative;
+    width: 1px;
+    height: 80px; 
+    background-color: #000;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.Cl12MnVrSwn .formgrmnPartmn {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Cl12MnVrSwn .formgrmnPartmn .FrmcntlMn {
+    width: 40%;
+    position: relative;
+}
+
+.Cl12MnVrSwn .formgrmnPartmn .FrmcntlMn .frmcntl {
+    width: 100%;
+    position: relative;
+    border: 0px;
+    background-color: #fff;
+    padding: 5px 0px;
+    border-bottom: 1px solid #747474;
+    font-size: 14px;
+}
+
+.Cl12MnVrSwn .formgrmnPartmn .FrmcntlMn label.hasVal {
+    top: -15px;
+    font-size: 14px;
+}
+
+.Cl12MnVrSwn .formgrmnPartmn .FrmcntlMn label {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    transition: all 1s ease;
+}
+
+.Cl12MnVrSwn .formgrmnPartmn .FrmcntlMn .frmcntl:focus + label {
+    top: -15px;
+    font-size: 14px;
+}       
+
+.nbtncmnApt {
+  position: relative;
+}
+
+.nbtncmnApt a  {
+    text-transform: uppercase;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.RctLgerAndTrmnet {
+    width: 100%;
+    position: relative;
+    display: block;
+    padding: 68px 0px;
+}
+
+.RctLgerAndTrmnet h4 {
+    font-size: 36px;
+    color: #000;
+    font-family: "CenturyGothic-Bold";
+    font-weight: 500;
+    line-height: 1;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.cla12mndwevrTrt {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    border: 1px solid #e2e2e2;
+}
+
+.cla12mndwevrTrt .cl6mnTrtmnvr {
+    width: 50%;
+    position: relative;
+    border-right: 1px solid #e2e2e2;
+}
+
+.cla12mndwevrTrt .cl6mnTrtmnvr:last-child {
+    border-right: 0px ;
+}
+
+.cla12mndwevrTrt .cl6mnTrtmnvr .Hdimgvr {
+    padding: 30px 50px;
+}
+
+.cla12mndwevrTrt .cl6mnTrtmnvr .Hdimgvr:nth-child(odd) {
+    padding: 10px 50px;
+    background-color: #e9e9e9;
+}
+
+.cla12mndwevrTrt .cl6mnTrtmnvr .Hdimgvr p {
+    font-size: 16px;
+    color: #666666;
+    font-weight: 500;
+}
+
+.cla12mndwevrTrt .cl6mnTrtmnvr .Hdimgvrhdmn h5{
+   font-size: 20px;
+   color: #ffffff;
+   background-color: #1da1b8;
+   padding: 10px 50px;
+}
+
+@media (max-width: 991px) {
+      
+    .cl12DcmnSwn {
+        height: auto;
+    } 
+
+    .AswrdMnvr .TtleCntmnVr {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .AswrdMnvr .TtleCntmnVr h4 {
+        margin-bottom: 25px;
+    }
+
+    .StryTellPrt {
+        padding: 40px 0px;
+    }
+
+    .SldrRvewPrt {
+        width: 100%;
+        padding: 0px 55px;
+    }
+
+    .ClSwnvrMnSrvmn {
+        height: 45vh;
+        background-attachment: initial;
+        background-position: bottom;
+    }
+
+    .ClSwnvrMnSrvmn .container .Cslogy {
+        width: 65%;
+    }
+
+    .LstrmnSrmnVr .TtlmnvrSwh a {
+        position: relative;
+        bottom: 0px;
+    }
+
+    .BckimgSwnmnCmt {
+        height: auto;
+    }
+
+    .BckimgSwnmnCmt .container {
+        position: relative;
+        left: auto;
+        right: auto;
+        transform: none;
+    }
+    .cl12SwnmnCt {
+        width: 100%;
+    }
+
+    .cl12DcmnSwn .cl4nmnvrSwn .PrdMnSwbCtmn h4 {
+        font-size: 24px;
+    }
+
+    .cl12DcmnSwn .cl4nmnvrSwn .PrdMnSwbCtmn small {
+        font-size: 14px;
+        padding: 10px 0px;
+    }
+
+    .cl12DcmnSwn .cl4nmnvrSwn .PrdMnSwbCtmn p  {
+        font-size: 16px;
+        margin-top: 12px;
+    }
+
+    .cl12DcmnSwn .cl4nmnvrSwn .ViwPromn a img {
+        width: auto;
+    }
+
+    .cl12DcmnSwn .cl4nmnvrSwn .PrdMnSwbCtmn img {
+        width: 75px;
+        margin-top: 15px;
+    }
+
+    .ViwPromn{
+        margin-top: 12px;
+    }
+
+    .cl12DcmnSwn .cl4nmnvrSwn {
+        width: 50%;   
+    }
+
+    .cl12DcmnSwn .cl4nmnvrSwn .PrdMnSwbCtmn {
+        padding: 10px;
+    }
+
+    .cl12DcmnSwn .cl6mnvrImg {
+        width: 50%;  
+    } 
+
+    .PsmnvrSw {
+        display: none;
+    }
+    .SldrVrSwntuv .SldrImgvrmn .SldrCnt {
+        position: absolute;
+        bottom: 176px;
+        left: 0px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .cl12MnSwvr {
+        margin-top: 35px;
+    }
+
+    .AbtClmnvr .cl12SwnWnSwnAbt .clswn6Abt {
+        margin-right: 25px;
+    }
+
+    .AbtClmnvr .Swnvr .Ttlemn {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+
+    .AbtClmnvr .cl12SwnWnSwnAbt .clswn6Abt .btnAllNmrl {
+        margin-top: 25px;
+    }
+
+    .AbtClmnvr .Swnvr .Ttlemn h2 {
+        width: 100%;
+    }
+
+    .cl12mnSlvrSwn {
+        width: 95%;
+        right: 0px;
+        left: 0px;
+        bottom: 50px;
+    }
+
+    .SldrVrSwntuv .SldrImgvrmn .SldrCnt h1 {
+        font-size: 32px;
+    }
+
+
+    .clmvr {
+        width: 100%;
+    }
+
+    .BookAptmntVr {
+        padding: 45px 0px;
+    }
+
+    .AswrdMnvr {
+        padding: 55px 0px 60px;
+    }
+
+    .owl-theme .owl-nav .owl-prev {
+        left: 40px;
+    }
+
+    .owl-theme .owl-nav .owl-next {
+        right: 40px;
+    }
+
+    .Psmn {
+        position: relative;
+        height: 29vh;
+        background-attachment: inherit;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+
+
+@media (max-width: 767px) {
+  main{
+      margin-top: 65px;
+  }
+ .SldrVrSwntuv .SldrImgvrmn .SldrCnt {
+    position: absolute;
+    bottom: 110px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+ }  
+ .SldrVrSwntuv .SldrImgvrmn .SldrCnt h1 {
+     font-size: 18px;
+ }
+
+ .StryTellPrt .StrySldrMn .StrPsmn p{
+     font-size: 16px;
+ }
+
+ .cl12mnSlvrSwn {
+     width: 100%;
+     bottom: 40px;
+     padding: 0px 2px;
+     right: 0px;
+     display: flex;
+ }
+
+ .IcnimgSwn {
+    width: 34px;
+    /* display: flex; */
+    /* justify-content: center; */
+    display: block;
+    margin: 0 auto;
+    height: 40px;
+ }
+.cl12mnSlvrSwn .cl2Rtmnvr .IcnimgSwn img {
+    width: 100%;
+    display: inline-block;
+    height: 100%;
+    object-fit: contain;
+}
+.cl12mnSlvrSwn p  {
+    color: #fff;
+    margin-top: 5px;
+    line-height: 1.2;
+    font-size: 9px;
+}
+.AbtClmnvr {
+    padding: 25px 0px;
+}
+.AbtClmnvr .Swnvr .Ttlemn img {
+    width: 50px;
+}
+.AbtClmnvr .Swnvr .Ttlemn h2 {
+    font-size: 24px;
+    width: 100%;
+}
+
+.AbtClmnvr .Swnvr .Ttlemn {
+    margin-bottom: 25px;
+}
+
+.AbtClmnvr .cl12SwnWnSwnAbt {
+    flex-wrap: wrap;
+}
+.AbtClmnvr .cl12SwnWnSwnAbt .clswn6Abt {
+    width: 100%;
+    margin-right: 0px;
+}
+.AbtClmnvr .cl12SwnWnSwnAbt .clswn6Abt:last-child {
+    width: 100%;
+}
+.IcnFlmshwb {
+    display: none;
+}
+
+.AbtClmnvr .cl12SwnWnSwnAbt .clswn6Abt .btnAllNmrl {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.AbtClmnvr .cl12SwnWnSwnAbt .clswn6Abt p {
+    text-align: justify;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.cl12MnSwvr {
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.cl12MnSwvr .cl4mnSwnTuv {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.Vdeicmnvr {
+    width: 35px;
+    height: 35px;
+    right: 20px;
+    bottom: 30px;
+}
+
+.Vdeicmnvr::before {
+    width: 40px;
+    height: 40px;
+}
+
+.Vdeicmnvr img {
+    width: 5px !important;
+}
+
+.cl12DcmnSwn {
+    width: 100%;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+.cl12DcmnSwn .cl4nmnvrSwn .PrdMnSwbCtmn {
+    padding: 30px 25px 30px 20px;
+}
+
+.cl12DcmnSwn .cl4nmnvrSwn .PrdMnSwbCtmn h4 {
+   font-size: 28px;
+   margin-bottom: 5px;
+}
+
+.cl12DcmnSwn .cl4nmnvrSwn .PrdMnSwbCtmn small {
+    padding: 14px 0px;
+    line-height: 1.3;
+}
+
+.cl12DcmnSwn .cl4nmnvrSwn .PrdMnSwbCtmn p {
+    margin-top: 15px;
+    font-size: 16px;
+    
+}
+
+.PsmnvrSw {
+    width: 130px;
+    bottom: -30px;
+    opacity: 0.2;
+}
+
+.PsmnvrSw img {
+    width: 100%;
+}
+
+.BckimgSwnmnCmt {
+    height: auto;
+    padding: 10px 0px;
+}
+
+.BckimgSwnmnCmt .container {
+    position: relative;
+    left: 0%;
+    top: 0%;
+    transform: none;
+    width: 95%;
+}
+
+.cl12DcmnSwn .cl4nmnvrSwn {
+    width: 100%;
+}
+
+.cl12SwnmnCt {
+    width: 100%;
+}
+
+.cl12DcmnSwn .cl6mnvrImg {
+    width: 100%;
+}
+
+.cl12SwnmnCt .cl6mnSrvmn {
+    padding: 20px;
+}
+
+.cl12SwnmnCt .cl6mnSrvmn .ImgCntTrt {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.cl12SwnmnCt .cl6mnSrvmn h4 {
+    font-size: 18px;
+}
+
+.cl12SwnmnCt .cl6mnSrvmn .ImgCntTrt img {
+    width: 20px;
+}
+
+.LstrmnSrmnVr .TtlmnvrSwh {
+    margin: 25px 0px;
+}
+.LstrmnSrmnVr .TtlmnvrSwh h5 {
+    font-size: 24px;
+    line-height: 1.1;
+    margin-bottom: 10px;
+}
+
+.LstrmnSrmnVr .TtlmnvrSwh a {
+    color: #666666;
+    text-transform: uppercase;
+    font-size: 14px;
+    position: relative;
+    right: 0px;
+    bottom: 0px;
+    font-weight: 500;
+    display: block;
+    margin-top: 0px;
+}
+
+.RctLgerAndTrmnet {
+    padding: 35px 0px;
+}
+
+.RctLgerAndTrmnet h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.cla12mndwevrTrt {
+    flex-wrap: wrap;
+}
+
+.cla12mndwevrTrt .cl6mnTrtmnvr {
+    width: 100%;
+}
+
+.cla12mndwevrTrt .cl6mnTrtmnvr .Hdimgvrhdmn h5 {
+    font-size: 16px;
+    padding: 10px 30px;
+}
+
+.cla12mndwevrTrt .cl6mnTrtmnvr .Hdimgvr{
+    padding: 10px 30px;
+}
+
+.cla12mndwevrTrt .cl6mnTrtmnvr .Hdimgvr:nth-child(odd) {
+    padding: 10px 30px;
+}
+
+.cla12mndwevrTrt .cl6mnTrtmnvr .Hdimgvr p {
+    font-size: 14px;
+}
+
+.ClSwnvrMnSrvmn {
+    height: 49vh;
+    background-position: right;
+}
+
+.ClSwnvrMnSrvmn .container {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    padding: 0px 14px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(0 0 0 / 72%);
+}
+
+.ClSwnvrMnSrvmn .container .Cslogy {
+    width: 100%;
+    
+}
+
+.ClSwnvrMnSrvmn .container .Cslogy h5 {
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.ClSwnvrMnSrvmn .container .Cslogy p  {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.StryTellPrt {
+    padding: 30px 0px;
+}
+
+.StryTellPrt .TtlemnVr {
+    margin-bottom: 30px;
+}
+
+.StryTellPrt .TtlemnVr h3 {
+    font-size: 24px;
+}
+
+.StryTellPrt .Psabmnvr {
+    display: none;
+}  
+
+.StryTellPrt .StrySldrMn .Vdemnvlt .Vdemn {
+    width: 35px;
+    height: 35px;
+}
+
+.StryTellPrt .StrySldrMn .Vdemnvlt .Vdemn::before {
+    width: 40px;
+    height: 40px;    
+}
+
+.SldrRvewPrt {
+ width: 100%;
+ padding: 0px 30px;
+}
+
+.GogleRvemnvr {
+    padding: 30px 0px;
+
+}
+
+.cl12mnvrRevwePge {
+    margin-bottom: 0px;
+}
+
+.cl12mnvrRevwePge .Lngomnvr img {
+    width: 115px;
+} 
+
+.cl12mnvrRevwePge .Lngomnvr h4 {
+    font-size: 24px;
+}
+
+.SldrRvewPrt .RtiingMnvr b {
+    font-size: 22px;
+}
+
+.SldrRvewPrt .RtiingMnvr img {
+    width: 12px;
+
+}
+
+.SldrRvewPrt .RvewPrtMnvr {
+    margin: 12px auto;
+}
+
+.SldrRvewPrt  .owl-theme .owl-nav .owl-prev  {
+    left: -10px;
+}
+
+.SldrRvewPrt  .owl-theme .owl-nav .owl-prev .lftCr {
+    width: 13px;
+    height: 13px;
+}
+
+.SldrRvewPrt .owl-theme .owl-nav .owl-next .rgtCr {
+    width: 13px;
+    height: 13px;
+}
+
+.SldrRvewPrt .owl-theme .owl-nav .owl-next {
+    right: -10px;
+}
+
+.SldrRvewPrt p {
+   font-size: 14px;
+}
+
+.AswrdMnvr {
+  padding: 25px 0px 35px;
+}
+
+.AswrdMnvr  .TtleCntmnVr {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.AswrdMnvr  .TtleCntmnVr p {
+    font-size: 14px;
+    text-align: justify;
+}
+
+.AswrdMnvr  .TtleCntmnVr h4 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.AswrdMnvr .cl12RptmnvrSwn h5 {
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.AswrdMnvr .cl12RptmnvrSwn p {
+    font-size: 14px;
+}
+
+.SldrAwrdMnvrSwn {
+    padding: 0px 20px;
+}
+
+.Psmn {
+    width: 100%;
+    position: relative;
+    height: 24vh;
+    background-attachment: inherit;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.clmvr {
+    width: 100%;
+}
+
+.clmvr .tilemn h4 {
+    width: 100%;
+    font-size: 24px;
+}
+
+.BookAptmntVr {
+    padding: 15px 0px 40px;
+}
+
+.BookAptmntVr .vrlin {
+    display: none;
+}
+
+.Cl12MnVrSwn .formgrmnPartmn {
+    flex-wrap: wrap;
+}
+
+.Cl12MnVrSwn .formgrmnPartmn .FrmcntlMn {
+    width: 100%;
+    margin-bottom: 22px;
+}
+
+.Cl12MnVrSwn .formgrmnPartmn .nbtncmnApt {
+    width: 100%;
+    text-align: center;
+} 
+
+.cl12SwnmnCt .cl6mnSrvmn:nth-child(1) {
+    margin-bottom: 10px;
+}
+
+.cl12SwnmnCt .cl6mnSrvmn {
+    margin-bottom: 10px;
+}
+
+.cl12SwnmnCt .cl6mnSrvmn:nth-child(2) {
+   margin-bottom: 10px;
+}
+
+.Cl12MnVrSwn {
+    margin-top: 25px;
+}
+
+.cl12SwnmnCt .cl6mnSrvmn {
+    width: 100%;
+}
+
+.cl12MnSwvr .cl4mnSwnTuv p  {
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+.SldrVrSwntuv .SldrImgvrmn .SldrImg {
+    height: 40vh;
+}
+
+.SldrVrSwntuv .SldrImgvrmn .SldrImg img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.IcnimgSwn  {
+    width: 25px;
+    height: 25px;
+}
+
+
+}    
+
+

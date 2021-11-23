@@ -1,0 +1,66 @@
+<header [class.header_fixed]="header_variable"> 
+   <nav>  
+    <div class="cl12HrSpnvr">
+        <div class="LngPsAblenmn">
+           <a mat-list-item [routerLink]="['/index']" routerLinkActive="active" class="mainNav-href" (click)="setMeta()"> <img src="assets/images/logo.png" alt="Logo" /> </a>
+        </div> 
+        <div class="cl6mnvr"> 
+             <div class="Arwnmvr HdrArow" (click)="MenuClnmn()">
+                <span></span> 
+                <span></span> 
+                <span></span>
+             </div> 
+             <div class="ClmnSwnvr"> <img src="assets/icon/phone.png" /> <a href="+919292929271"> +91-9292929271 </a> </div>
+        </div> 
+        <div class="cl6mnvr"> 
+            <ul>
+                <li> <a mat-list-item [routerLink]="['/about-us']" routerLinkActive="active"> Dr. Sushil Goyal </a> </li>
+                <li> <a href="javascript:void(0)" class="QuiKeQy"> Book an Appointment </a> </li>
+            </ul>
+        </div>
+    </div> 
+   <div class="navbrMnurmnvr"> 
+       <ul> 
+           <li> <a mat-list-item [routerLink]="['/about-us']" routerLinkActive="active"> About Us </a> </li>
+           <li> <a mat-list-item [routerLink]="['/treatments']" routerLinkActive="active"> Treatments </a> </li> 
+           <li> <a mat-list-item [routerLink]="['/gallery']" routerLinkActive="active"> Gallery  </a> </li>
+           <li> <a mat-list-item [routerLink]="['/blogs']" routerLinkActive="active"> Blogs  </a> </li>
+           <li> <a mat-list-item [routerLink]="['/faqs']" routerLinkActive="active"> FAQ’s </a> </li>
+           <li> <a mat-list-item [routerLink]="['/contact-us']" routerLinkActive="active"> Contact us </a> </li>
+       </ul>
+   </div>
+   </nav>
+</header>
+
+<div class="HdrWthmn" [class.bacmnswn]="bacmnvr"></div>
+
+<section id="menu-off-canvas" [class.menu-active]="MenuFnt">
+    <div class="menu-main-container">
+        <div class="menu-close" (click)="ClseBtm()" style="background-image: url('assets/icon/close_mn.png');"></div>
+        <div class="menu-main-top">
+            <ul id="menu-main-menu" class="menu">                   
+                <li class="menu-item menu-about"><a (click)="ClseBtm()" mat-list-item [routerLink]="['/about-us']" routerLinkActive="active">About us</a></li>
+                <li class="active menu-item menu-item-has-children menu-services"> <a (click)="ClseBtm()" mat-list-item [routerLink]="['/treatments']" routerLinkActive="active">Treatments</a></li>
+                <li class="menu-item menu-projects"><a (click)="ClseBtm()" mat-list-item [routerLink]="['/gallery']" routerLinkActive="active">Gallery</a></li>
+                <li class="menu-item menu-projects"><a (click)="ClseBtm()" mat-list-item [routerLink]="['/blogs']" routerLinkActive="active"> Blogs  </a> </li>
+                <li class="menu-item menu-team"><a (click)="ClseBtm()" mat-list-item [routerLink]="['/faqs']" routerLinkActive="active">FAQ’s</a></li>
+                <li class="menu-item menu-careers"><a (click)="ClseBtm()" mat-list-item [routerLink]="['/contact-us']" routerLinkActive="active">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="menu-main-bottom">
+            <div class="menu-social menu-social-inline">
+                <a class="no-underline" target="_blank" href="javascript:void(0);" title="twitter"><i class="fab fa-twitter"></i></a>
+                <a class="no-underline" target="_blank" href="javascript:void(0);" title="Instagram"><i class="fab fa-instagram"></i></a>
+                <a class="no-underline" target="_blank" href="javascript:void(0);" title="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+                <a class="no-underline" target="_blank" href="javascript:void(0);" title="Facebook"><i class="fab fa-facebook"></i></a>
+                <a class="no-underline" target="_blank" href="javascript:void(0);" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a class="no-underline" target="_blank" href="javascript:void(0);" title="LinkedIn"><i class="fab fa-youtube"></i></a>
+            </div>
+            <p class="color-grey menu-main-address"></p>
+            <ul class="menu-main-links">
+                <li class="menu-main-links-item"><a href="tel:+919292929271,"> +91-9292929271 </a></li>
+                <li class="menu-main-links-item"><a href="mailto:contact@goyalpilescarecentre.com "> contact@goyalpilescarecentre.com  </a></li>
+            </ul>
+        </div>
+    </div>
+</section>

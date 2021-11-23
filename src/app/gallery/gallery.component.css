@@ -1,0 +1,338 @@
+.GlymnVr {
+    width: 100%;
+    position: relative;
+    display: block;
+}
+
+.GlymnVr .GlyImgMnvrSwn {
+    width: 100%;
+    position: relative;
+    display: block;
+    line-height: 0;
+}
+
+.GlymnVr .GlyImgMnvrSwn img {
+    width: 100%;
+}
+
+.GlyImgMnvrSwn::before {
+    width: 100%;
+    height: 70%;
+    top: auto;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    content: "";
+    background-image: linear-gradient(transparent, #000000c7)
+  }
+
+.HrgmvrGly {
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+    text-align: center;
+}  
+
+.HrgmvrGly h1 {
+    font-size: 48px;
+    color: #fff;
+    font-family: "CenturyGothic-Bold";
+}
+
+.HrtgYearSlide-item {
+    text-align: center;
+    position: relative;
+    height: 112px;
+    position: relative;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+}
+
+.UtlitmnSev .HrtgYearSlide-item.actmnTbmn .HrtgYr {
+    color: #1da1b8;
+}
+
+.UtlitmnSev .HrtgYearSlide-item.actmnTbmn .HrtgYrIcn::before {
+    background-color: #ffffff;
+    width: 10px;
+    height: 10px;
+    visibility: visible;
+}
+
+.HrtgYearSlide-item .HrtgYr {
+    display: block;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+    color: #666666;
+    font-weight: 600;
+}
+
+.GlyMnSwvr .HrtgYearSlide-item:before {
+    width: 100%;
+    height: 1px;
+    top: 50%;
+    right: auto;
+    bottom: auto;
+    left: 0px;
+    position: absolute;
+    content: "";
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background: #1da1b8;
+}
+
+.UtlitmnSev .HrtgYearSlide-item .HrtgYrIcn {
+    width: 18px;
+    height: 18px;
+    background: #1da1b8;
+    border-radius: 50%;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    z-index: 1;
+    border: 0px solid #1da1b8;
+}
+
+.UtlitmnSev .HrtgYearSlide-item .HrtgYrIcn:before {
+    width: 15px;
+    height: 15px;
+    background: #1da1b8;
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    border-radius: 50%;
+    visibility: hidden;
+    opacity: 1;
+}
+
+.UtlitmnSev .HrtgYearSlide-item .HrtgYrIcn .HrtgYr {
+    position: absolute;
+    font-size: 16px;
+    color: #000;
+    font-weight: 600;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    bottom: 0;
+    width: 100%;
+}
+  
+.UtlitmnSev .owl-nav {
+    position: absolute;
+    top: -150px;
+    width: 100%;
+    z-index: 2;
+    margin-top: 0;
+}
+
+.UtlitmnSev .owl-nav .owl-prev {
+    position: absolute;
+    left: -28px;
+    -webkit-transform: translateX(-5px);
+            transform: translateX(-5px);
+}
+ 
+.HrtgSldrCntnt .owl-item.active.current .HrtgYearSlide-item .HrtgYrIcn {
+   background: #ffffff;
+}
+
+.UtlitmnSev .owl-item.active.current .HrtgYearSlide-item .HrtgYrIcn {
+   border: 5px solid #ff7f00;
+   background-color: #ffffff;
+}
+
+.UtlitmnSev .owl-item.active.current .HrtgYearSlide-item .HrtgYr {
+    color: #ff7f00;
+    font-weight: 600;
+}
+
+.GlyMnSwvr {
+    padding: 50px 0px;
+}
+
+.cl12GlmnvrSwn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-top: 25px;
+}
+
+.cl12GlmnvrSwn .cl4mnvrSwn{
+   width: 31%;
+   position: relative;
+   cursor: pointer;
+   margin-bottom: 30px;
+   overflow: hidden;
+   margin-right: 30px;
+   line-height: 0;
+}
+
+.cl12GlmnvrSwn .cl4mnvrSwn img {
+    width: 100%;
+}
+
+.cl12GlmnvrSwn .cl4mnvrSwn:nth-child(3n - 3) {
+    margin-right: 0px;
+}
+
+.cl12GlmnvrSwn .cl4mnvrSwn:hover .glySrmn  img {
+    transform: scale(1.1);
+}
+
+.cl12GlmnvrSwn .cl4mnvrSwn:hover .PlusIcmnvr {
+    transform: translateY(0%);
+}
+
+.cl12GlmnvrSwn .cl4mnvrSwn .PlusIcmnvr {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgb(0 0 0 / 50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px;
+    color: #fff;
+    transform: translateY(100%);
+    transition: all  1s ease;
+}
+
+.GlyPoumncvrSwn.OpnPopCntct {
+    display: block;
+}
+
+.cl12GlmnvrSwn .cl4mnvrSwn .glySrmn {
+    width: 100%;
+    line-height: 0;
+}
+
+.cl12GlmnvrSwn .cl4mnvrSwn .glySrmn img {
+    width: 100%;
+    transition: all  1s ease;
+}
+
+.GlyPoumncvrSwn {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    bottom: 0;
+    background: rgb(0 0 0 / 50%);
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.CntAlmnvr {
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ClsmbtnSwn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 20px;
+    line-height: 0;
+    cursor: pointer;
+}
+
+.ClsmbtnSwn img {
+    width: 100%;
+}
+
+lightgallery {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 991px) {
+    .UtlitmnSev {
+        padding: 0px 40px;       
+    }
+    .HrtgYearSlide-item {
+        height: 100px;
+    }
+  
+    .cl12GlmnvrSwn .cl4mnvrSwn {
+        width: 30%;
+    }
+
+    .GlyMnSwvr {
+        padding: 35px 0px;
+    }
+
+    body .lg-backdrop {
+        background-color: rgb(0 0 0 / 88%);
+    }
+
+    body .lg-show-in .lg-toolbar, .lg-show-in .lg-prev, .lg-show-in .lg-next, .lg-show-in .lg-pager-outer {
+        opacity: 1;
+    }
+}    
+
+@media (max-width: 767px) {
+   
+    .HrgmvrGly {
+        bottom: 12px;
+        text-align: center;
+    }
+
+    .HrgmvrGly h1 {
+        font-size: 24px;
+    }
+
+    .HrtgYearSlide-item {
+        height: 80px;
+    }
+
+    .UtlitmnSev .HrtgYearSlide-item.actmnTbmn .HrtgYr {
+        font-size: 12px; 
+        line-height: 1.1;
+    }
+
+    .cl12GlmnvrSwn {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+        margin-top: 0px;
+    }
+
+    .cl12GlmnvrSwn .cl4mnvrSwn {
+        width: 49%;
+        margin-bottom: 7px;
+        margin-right: 0px;
+    }
+
+    .HrtgYearSlide-item .HrtgYr {
+        font-size: 12px;
+        line-height: 1.1;
+    }
+
+    lightgallery {
+        justify-content: space-between;
+
+    }
+
+}

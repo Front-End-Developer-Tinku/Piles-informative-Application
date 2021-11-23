@@ -1,0 +1,374 @@
+<section>
+   <div class="GlymnVr"> 
+       <div class="GlyImgMnvrSwn">
+           <img src="assets/images/galleybanner.jpg" />
+       </div>
+       <div class="HrgmvrGly">
+           <h1> Gallery </h1>
+       </div>
+   </div>
+</section>
+
+<section>
+   <div class="GlyMnSwvr">
+      <div class="container">
+        <div class="UtlitmnSev">
+          <owl-carousel-o [options]="GlyrSldmnvr">
+            <ng-template carouselSlide> 
+              <div id="one" class="HrtgYearSlide-item tabmnclr" [class.actmnTbmn]="id === 'one'" (click)="tabChange('one')">
+                <span class="HrtgYrIcn"></span>
+                <span class="HrtgYr"> GEA 2019 Award  </span>
+              </div>
+          </ng-template>
+          <ng-template carouselSlide> 
+            <div id="two" class="HrtgYearSlide-item tabmnclr" [class.actmnTbmn]="id === 'two'" (click)="tabChange('two')">
+              <span class="HrtgYrIcn"></span>
+              <span class="HrtgYr">  Reception Desk </span>
+            </div>
+        </ng-template>
+
+        <ng-template carouselSlide> 
+          <div id="three" class="HrtgYearSlide-item tabmnclr" [class.actmnTbmn]="id === 'three'" (click)="tabChange('three')">
+            <span class="HrtgYrIcn"></span>
+            <span class="HrtgYr">  Bye Bye Unwanted Hair </span>
+          </div>
+      </ng-template>
+
+      <ng-template carouselSlide> 
+        <div id="three" class="HrtgYearSlide-item tabmnclr" [class.actmnTbmn]="id === 'four'" (click)="tabChange('four')">
+          <span class="HrtgYrIcn"></span>
+          <span class="HrtgYr">   Office Infrastructure  </span>
+        </div>
+    </ng-template>
+
+    <ng-template carouselSlide> 
+      <div id="three" class="HrtgYearSlide-item tabmnclr" [class.actmnTbmn]="id === 'five'" (click)="tabChange('five')">
+        <span class="HrtgYrIcn"></span>
+        <span class="HrtgYr">    Interior Area 2  </span>
+      </div>
+  </ng-template>
+
+
+        </owl-carousel-o>    
+</div> 
+
+    <div class="TblmCrvrSwn"  *ngIf="id === 'one'">
+        <div class="cl12GlmnvrSwn">
+          <lightgallery [settings]="settings" [onBeforeSlide]="onBeforeSlide">
+            <a class="gallery-item cl4mnvrSwn"
+             data-src="assets/images/gallery/one.jpg"
+             data-sub-html="<h4>Photo by </h4>">
+             <img class="img-responsive"
+              src="assets/images/gallery/one.jpg" />
+              <div class="PlusIcmnvr">
+                + 
+              </div>
+          </a>
+            <a class="gallery-item cl4mnvrSwn"
+                data-src="assets/images/gallery/two.jpg"
+                data-sub-html="<h4>Photo by </h4>">
+                <img class="img-responsive"
+                  src="assets/images/gallery/two.jpg" />
+
+                  <div class="PlusIcmnvr">
+                    + 
+                  </div>
+              </a>
+     
+            <a class="gallery-item cl4mnvrSwn"
+                data-src="assets/images/gallery/three.jpg"
+                data-sub-html="<h4>Photo by </h4>">
+                <img class="img-responsive"
+                  src="assets/images/gallery/three.jpg" />
+
+                  <div class="PlusIcmnvr">
+                    + 
+                  </div>
+            </a>
+          </lightgallery>
+        </div>
+    </div>
+
+    <div class="TblmCrvrSwn" *ngIf="id === 'two'">
+       <div class="cl12GlmnvrSwn">
+
+        <lightgallery [settings]="settings" [onBeforeSlide]="onBeforeSlide">
+          <a class="gallery-item cl4mnvrSwn"
+            data-src="assets/images/gallery/one.jpg"
+            data-sub-html="<h4>Photo by </h4>">
+            <img class="img-responsive"
+              src="assets/images/gallery/one.jpg" />
+            <div class="PlusIcmnvr">
+              + 
+            </div>
+          </a>
+
+          <a class="gallery-item cl4mnvrSwn"
+              data-src="assets/images/gallery/two.jpg"
+              data-sub-html="<h4>Photo by </h4>">
+              <img class="img-responsive"
+                src="assets/images/gallery/two.jpg" />
+
+                <div class="PlusIcmnvr">
+                  + 
+                </div>
+            </a>
+   
+          <a class="gallery-item cl4mnvrSwn"
+              data-src="assets/images/gallery/three.jpg"
+              data-sub-html="<h4>Photo by </h4>">
+              <img class="img-responsive"
+                src="assets/images/gallery/three.jpg" />
+
+                <div class="PlusIcmnvr">
+                  + 
+                </div>
+          </a>
+
+          <a class="gallery-item cl4mnvrSwn"
+              data-src="assets/images/gallery/one.jpg"
+              data-sub-html="<h4>Photo by </h4>">
+              <img class="img-responsive"
+                src="assets/images/gallery/three.jpg" />
+
+                <div class="PlusIcmnvr">
+                  + 
+                </div>
+          </a>
+        </lightgallery>
+
+
+  
+       </div>
+    </div>
+
+    <div class="TblmCrvrSwn" *ngIf="id === 'three'">
+      <div class="cl12GlmnvrSwn">
+
+        <lightgallery [settings]="settings" [onBeforeSlide]="onBeforeSlide">
+          <a class="gallery-item cl4mnvrSwn"
+            data-src="assets/images/gallery/one.jpg"
+            data-sub-html="<h4>Photo by </h4>">
+            <img class="img-responsive"
+              src="assets/images/gallery/one.jpg" />
+            <div class="PlusIcmnvr">
+              + 
+            </div>
+          </a>
+
+          <a class="gallery-item cl4mnvrSwn"
+              data-src="assets/images/gallery/two.jpg"
+              data-sub-html="<h4>Photo by </h4>">
+              <img class="img-responsive"
+                src="assets/images/gallery/two.jpg" />
+
+                <div class="PlusIcmnvr">
+                  + 
+                </div>
+            </a>
+   
+          <a class="gallery-item cl4mnvrSwn"
+              data-src="assets/images/gallery/three.jpg"
+              data-sub-html="<h4>Photo by </h4>">
+              <img class="img-responsive"
+                src="assets/images/gallery/three.jpg" />
+
+                <div class="PlusIcmnvr">
+                  + 
+                </div>
+          </a>
+
+          <a class="gallery-item cl4mnvrSwn"
+              data-src="assets/images/gallery/one.jpg"
+              data-sub-html="<h4>Photo by </h4>">
+              <img class="img-responsive"
+                src="assets/images/gallery/three.jpg" />
+
+                <div class="PlusIcmnvr">
+                  + 
+                </div>
+          </a>
+        </lightgallery>
+    
+
+    
+
+
+
+      </div>
+    </div>
+
+    <div class="TblmCrvrSwn" *ngIf="id === 'four'">
+    <div class="cl12GlmnvrSwn">
+
+  
+
+      <lightgallery [settings]="settings" [onBeforeSlide]="onBeforeSlide">
+        <a class="gallery-item cl4mnvrSwn"
+          data-src="assets/images/gallery/one.jpg"
+          data-sub-html="<h4>Photo by </h4>">
+          <img class="img-responsive"
+            src="assets/images/gallery/one.jpg" />
+          <div class="PlusIcmnvr">
+            + 
+          </div>
+        </a>
+
+        <a class="gallery-item cl4mnvrSwn"
+            data-src="assets/images/gallery/two.jpg"
+            data-sub-html="<h4>Photo by </h4>">
+            <img class="img-responsive"
+              src="assets/images/gallery/two.jpg" />
+
+              <div class="PlusIcmnvr">
+                + 
+              </div>
+          </a>
+ 
+        <a class="gallery-item cl4mnvrSwn"
+            data-src="assets/images/gallery/three.jpg"
+            data-sub-html="<h4>Photo by </h4>">
+            <img class="img-responsive"
+              src="assets/images/gallery/three.jpg" />
+
+              <div class="PlusIcmnvr">
+                + 
+              </div>
+        </a>
+
+        <a class="gallery-item cl4mnvrSwn"
+            data-src="assets/images/gallery/one.jpg"
+            data-sub-html="<h4>Photo by </h4>">
+            <img class="img-responsive"
+              src="assets/images/gallery/three.jpg" />
+
+              <div class="PlusIcmnvr">
+                + 
+              </div>
+        </a>
+      </lightgallery>
+  
+
+   
+
+  
+
+    </div>
+
+    </div>
+
+    <div class="TblmCrvrSwn" *ngIf="id === 'five'">
+    <div class="cl12GlmnvrSwn">
+
+      <lightgallery [settings]="settings" [onBeforeSlide]="onBeforeSlide">
+        <a class="gallery-item cl4mnvrSwn"
+          data-src="assets/images/gallery/one.jpg"
+          data-sub-html="<h4>Photo by </h4>">
+          <img class="img-responsive"
+            src="assets/images/gallery/one.jpg" />
+          <div class="PlusIcmnvr">
+            + 
+          </div>
+        </a>
+
+        <a class="gallery-item cl4mnvrSwn"
+            data-src="assets/images/gallery/two.jpg"
+            data-sub-html="<h4>Photo by </h4>">
+            <img class="img-responsive"
+              src="assets/images/gallery/two.jpg" />
+
+              <div class="PlusIcmnvr">
+                + 
+              </div>
+          </a>
+ 
+        <a class="gallery-item cl4mnvrSwn"
+            data-src="assets/images/gallery/three.jpg"
+            data-sub-html="<h4>Photo by </h4>">
+            <img class="img-responsive"
+              src="assets/images/gallery/three.jpg" />
+
+              <div class="PlusIcmnvr">
+                + 
+              </div>
+        </a>
+
+        <a class="gallery-item cl4mnvrSwn"
+            data-src="assets/images/gallery/one.jpg"
+            data-sub-html="<h4>Photo by </h4>">
+            <img class="img-responsive"
+              src="assets/images/gallery/three.jpg" />
+
+              <div class="PlusIcmnvr">
+                + 
+              </div>
+        </a>
+      </lightgallery>
+
+
+    </div>
+
+    </div>
+
+    <div class="TblmCrvrSwn" *ngIf="id === 'six'">
+    <div class="cl12GlmnvrSwn">
+
+      <lightgallery [settings]="settings" [onBeforeSlide]="onBeforeSlide">
+        <a class="gallery-item cl4mnvrSwn"
+          data-src="assets/images/gallery/one.jpg"
+          data-sub-html="<h4>Photo by </h4>">
+          <img class="img-responsive"
+            src="assets/images/gallery/one.jpg" />
+          <div class="PlusIcmnvr">
+            + 
+          </div>
+        </a>
+
+        <a class="gallery-item cl4mnvrSwn"
+            data-src="assets/images/gallery/two.jpg"
+            data-sub-html="<h4>Photo by </h4>">
+            <img class="img-responsive"
+              src="assets/images/gallery/two.jpg" />
+
+              <div class="PlusIcmnvr">
+                + 
+              </div>
+          </a>
+ 
+        <a class="gallery-item cl4mnvrSwn"
+            data-src="assets/images/gallery/three.jpg"
+            data-sub-html="<h4>Photo by </h4>">
+            <img class="img-responsive"
+              src="assets/images/gallery/three.jpg" />
+
+              <div class="PlusIcmnvr">
+                + 
+              </div>
+        </a>
+
+        <a class="gallery-item cl4mnvrSwn"
+            data-src="assets/images/gallery/one.jpg"
+            data-sub-html="<h4>Photo by </h4>">
+            <img class="img-responsive"
+              src="assets/images/gallery/three.jpg" />
+
+              <div class="PlusIcmnvr">
+                + 
+              </div>
+        </a>
+      </lightgallery>
+
+
+  
+ 
+
+
+
+
+    </div>
+
+    </div>
+
+      </div>
+   </div>
+</section>

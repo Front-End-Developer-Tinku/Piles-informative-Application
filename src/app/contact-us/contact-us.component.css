@@ -1,0 +1,438 @@
+.CntSldrSemnVr {
+    width: 100%;
+    position: relative;
+}
+
+.CntSldrSemnVr .CntSldrimg {
+    width: 100%;
+    position: relative;
+    line-height: 0;
+}
+
+.CntUdmnvrMn {
+    position: absolute;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    width: 95%;
+    max-width: 1260px;
+    margin: 0 auto;
+    left: 50%;
+}
+
+.CntSldrSemnVr .CntSldrimg img {
+    width: 100%;
+}
+
+.CntSldrSemnVr h1 {
+    font-size: 48px;
+    color: #fff;
+    font-family: "CenturyGothic-Bold";
+    margin-bottom: 30px;
+}
+
+.CntSldrSemnVr .Cntmnvr {
+    display: inline-block;
+    padding: 4px 17px 4px 4px;
+    border: 1px solid #fff;
+    border-radius: 25px;
+}
+
+.CntSldrSemnVr .Cntmnvr a {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #fff;
+}
+.CntSldrSemnVr .Cntmnvr a span {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 6px;
+    margin-right: 10px;
+}
+.CntSldrSemnVr .Cntmnvr a img {
+    width: 100%;
+}
+
+.AdrmnSwnvrvr {
+    width: 100%;
+    padding: 75px 0px;
+}
+
+.cl12mnCntvrswAdrsmn {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cl12mnCntvrswAdrsmn .cl4mnAdrmn {
+    width: 30%;
+    position: relative;
+}
+
+.cl12mnCntvrswAdrsmn .cl4mnAdrmn h5 {
+    font-size: 24px;
+    color: #1da1b8;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+
+.cl12mnCntvrswAdrsmn .cl4mnAdrmn p {
+    color: #4a4a4a;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.cl12mnCntvrswAdrsmn .cl4mnAdrmn p a {
+    color: #4a4a4a;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.cl12mnCntvrswAdrsmn .cl4mnAdrmn h5 img {
+    vertical-align: middle;
+}
+
+.cl12mnCntvrswAdrsmn .cl4mnAdrmn:first-child {
+    width: 28%;
+}
+
+.cl12mnCntvrswAdrsmn .cl4mnAdrmn:nth-child(2) {
+    width: 24%;
+}
+
+.MndyStrmn {
+    margin-top: 25px;
+    display: block;
+    padding-left: 50px;
+    position: relative;
+}
+
+.MndyStrmn .icntmemn {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.getDircmnvr {
+    margin-top: 50px;
+    display: block;
+}
+
+.getDircmnvr a {
+    display: inline-block;
+    font-size: 14px;
+    color: #1da1b8;
+    font-weight: 600;
+}
+
+.getDircmnvr a img {
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.BkApntMnVrSwn {
+    width: 100%;
+    position: relative;
+    display: block;
+}
+
+.BkApntMnVrSwn .BkApntSwnvr {
+    width: 100%;
+    position: relative;
+    line-height: 0;
+} 
+
+.BkApntMnVrSwn .BkApntSwnvr img {
+    width: 100%;
+}
+
+.BkApnntFrmvr {
+    width: 525px;
+    height: 525px;
+    position: absolute;
+    bottom: -85px;
+    background: rgba(29, 161, 184, 0.85);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+    transform: translate(-50%, 0px);
+}
+
+.MnvrSwn {
+    width: 100%;
+    text-align: center;
+    display: block;
+    padding: 0px 80px;
+}
+.MnvrSwn h4 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    line-height: 1;
+    color: #fff;
+    font-family: "CenturyGothic-Bold";
+}
+
+.NmeSwbvr {
+    margin-top: 40px;
+    margin-bottom: 70px;
+
+}
+
+.NmeSwbvr .FormGrpmn {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.NmeSwbvr .FormGrpmn .formcntl {
+    width: 100%;
+    position: relative;
+    display: block;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    padding: 5px 0px;
+    color: #fff;
+}
+
+.NmeSwbvr .FormGrpmn .formcntl:focus + label{
+    top: -20px;
+}
+
+.NmeSwbvr .FormGrpmn label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+    transition: all 1s ease;
+}
+
+.BookAnApnmvrSwn {
+    width: 100%;
+    display: block;
+}
+
+.BookAnApnmvrSwn a {
+    display: inline-block;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.BookAnApnmvrSwn a img {
+    filter: brightness(1000);
+    margin-left: 10px;
+}
+
+.CntAtmn {
+    line-height: 0;
+}
+
+.CntAtmn iframe {
+    width: 100%;
+    height: 600px;
+}
+
+@media (max-width: 991px) { 
+   
+    .AdrmnSwnvrvr {
+       padding: 35px 0px 75px;
+    }
+
+    .CntSldrSemnVr h1 {
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+
+    .cl12mnCntvrswAdrsmn {
+        flex-wrap: wrap;
+    }
+
+    .cl12mnCntvrswAdrsmn .cl4mnAdrmn:first-child {
+        width: 48%;
+        margin-bottom: 20px;
+    }
+
+    .cl12mnCntvrswAdrsmn .cl4mnAdrmn:nth-child(2) {
+        width: 48%;
+    }
+
+    .cl12mnCntvrswAdrsmn .cl4mnAdrmn h5 {
+        margin-bottom: 10px;
+    }
+
+    .getDircmnvr {
+        margin-top: 15px;
+    }
+
+    .MndyStrmn {
+        margin-top: 12px;
+        padding-left: 48px;
+    }
+
+    .NmeSwbvr {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .MnvrSwn {
+        padding: 0px 50px;
+    }
+
+    .NmeSwbvr .FormGrpmn {
+        margin-bottom: 20px;
+    }
+    .BkApnntFrmvr {
+        width: 420px;
+        height: 420px;
+    }
+
+    .CntAtmn iframe {
+        width: 100%;
+        height: 380px;
+    }
+
+
+}
+
+@media (max-width: 767px) { 
+
+    .CntSldrSemnVr  {
+        width: 100%;
+        position: relative;
+        height: 35vh;
+    }
+
+    .CntSldrSemnVr h1 {
+        font-size: 28px;
+    }
+
+    .CntSldrSemnVr .Cntmnvr {
+        padding: 0px 11px 0px 0px;
+    }
+
+    .CntSldrSemnVr .Cntmnvr a {
+        font-size: 12px;
+    }
+
+    .CntSldrSemnVr .Cntmnvr a span {
+        width: 25px;
+        height: 25px;
+        background-color: #fff;
+        border-radius: 50%;
+        display: flex;
+        padding: 6px;
+        margin-right: 8px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .CntUdmnvrMn {
+        position: absolute;
+        top: auto;
+        transform: none;
+        width: auto;
+        max-width: 1260px;
+        margin: 0 auto;
+        left: auto;
+        bottom: 20px;
+        left: 20px;
+    }
+
+    .CntSldrSemnVr .CntSldrimg {
+        height: 100%;
+    }
+
+    .CntSldrSemnVr .CntSldrimg img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+   
+    .cl12mnCntvrswAdrsmn .cl4mnAdrmn:first-child {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .cl12mnCntvrswAdrsmn .cl4mnAdrmn:nth-child(2) {
+       width: 100%; 
+       margin-bottom: 20px;
+    }
+    .AdrmnSwnvrvr {
+        padding: 25px 0px 30px;
+    }
+    .cl12mnCntvrswAdrsmn .cl4mnAdrmn {
+       width: 100%;   
+    }
+
+    .BkApntMnVrSwn .BkApntSwnvr {
+        display: none;
+    }
+
+    .BkApnntFrmvr {
+        width: 100%;
+        padding: 50px 0px;
+        position: relative;
+        left: auto;
+        transform: none;
+        border-radius: 0px;
+        height: auto;
+        bottom: 0px;
+    }
+
+    .MnvrSwn h4 {
+        margin-bottom: 30px;
+        font-size: 24px;
+        line-height: 1;
+    }
+
+    .NmeSwbvr {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .MnvrSwn {
+        padding: 0px 20px;
+    }
+
+    .NmeSwbvr .FormGrpmn {
+        margin-bottom: 35px;
+    }
+
+    .cl12mnCntvrswAdrsmn .cl4mnAdrmn h5 {
+        font-size: 20px;
+    }
+    .cl12mnCntvrswAdrsmn .cl4mnAdrmn h5 img {
+        width: 18px;
+    }
+
+    .cl12mnCntvrswAdrsmn .cl4mnAdrmn p {
+        font-size: 14px;
+    }
+
+    .cl12mnCntvrswAdrsmn .cl4mnAdrmn p a {
+        font-size: 14px ;
+    }
+  
+    .MndyStrmn {
+        padding-left: 30px;
+    }
+
+    .MndyStrmn .icntmemn {
+        width: 20px;
+    }
+
+    .MndyStrmn .icntmemn img {
+        width: 100%;
+    }
+
+  
+}
